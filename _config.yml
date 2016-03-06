@@ -1,14 +1,26 @@
-layout_spectrum: 0.7669768
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.4605735
 color:
   saturation: 0.08243728
-  lightness: 1
   brandStrength: 0.5591398
+  rhythmicContrast: 0.172043
   brandColors:
     - '#000000'
     - '#00CCFF'
     - '#FF9933'
     - '#9A5C1F'
     - '#42270D'
-  rhythmicContrast: 0.172043
+  lightness: 1
+layout_spectrum: 1
 name: Cupcakes and Photo Bombs
